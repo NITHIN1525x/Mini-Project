@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: chatbot-app
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn backend.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DEBUG
+        value: False
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_HOSTS
+        sync: false
+      - key: CORS_ALLOW_ALL_ORIGINS
+        value: True
