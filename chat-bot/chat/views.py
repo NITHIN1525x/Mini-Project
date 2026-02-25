@@ -2,12 +2,15 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
 class HealthView(APIView):
     """Simple health check - no ML models loaded"""
     def get(self, request):
         return Response({"status": "ok", "service": "chatbot-api"})
 
+@method_decorator(csrf_exempt, name='dispatch')
 class PredictView(APIView):
     def post(self, request):
         from .services import get_bot
@@ -23,6 +26,7 @@ class PredictView(APIView):
             "top3": top3
         })
 
+@method_decorator(csrf_exempt, name='dispatch')
 class ChatView(APIView):
     def post(self, request):
         from .services import get_bot
