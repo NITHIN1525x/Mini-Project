@@ -2,14 +2,15 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .services import get_bot
 
 class HealthView(APIView):
+    """Simple health check - no ML models loaded"""
     def get(self, request):
-        return Response({"status": "ok"})
+        return Response({"status": "ok", "service": "chatbot-api"})
 
 class PredictView(APIView):
     def post(self, request):
+        from .services import get_bot
         text = (request.data.get("text") or "").strip()
         if not text:
             return Response({"error": "text is required"}, status=status.HTTP_400_BAD_REQUEST)
@@ -24,6 +25,7 @@ class PredictView(APIView):
 
 class ChatView(APIView):
     def post(self, request):
+        from .services import get_bot
         text = (request.data.get("text") or "").strip()
         user_lang = (request.data.get("lang") or "en").strip()  # optional, for logging/analytics
         if not text:
