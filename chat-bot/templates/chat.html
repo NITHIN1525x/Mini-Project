@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Campus Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="/static/css/chat.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    :root {
+      --gradient: linear-gradient(135deg, #6ea8ff, #9b6eff, #ff6ebd);
+      --gradient-animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .brand {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 45px;
+      height: 45px;
+      background: var(--gradient);
+      background-size: 400% 400%;
+      animation: var(--gradient-animation);
+      border-radius: 12px;
+      margin-right: 12px;
+    }
+
+    .logo-icon {
+      font-size: 24px;
+      color: white;
+    }
+
+    .actions .chip {
+      background: rgba(110, 168, 255, 0.1);
+      border: 1px solid rgba(110, 168, 255, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .actions .chip:hover {
+      background: rgba(110, 168, 255, 0.2);
+      transform: translateY(-1px);
+    }
+
+    #mic {
+      background: var(--gradient);
+      background-size: 400% 400%;
+      animation: var(--gradient-animation);
+      color: white;
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    #mic:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(110, 168, 255, 0.3);
+    }
+
+    .messages {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 16px;
+      backdrop-filter: blur(5px);
+    }
+
+    .quick-tips {
+      background: var(--gradient);
+      background-size: 400% 400%;
+      animation: var(--gradient-animation);
+      padding: 15px;
+      border-radius: 12px;
+      color: white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .quick-tips h4 {
+      margin: 0 0 10px;
+      font-size: 1.1em;
+    }
+
+    .quick-tips ul {
+      margin: 0;
+      padding-left: 20px;
+      opacity: 0.9;
+    }
+
+    .composer {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      margin: 10px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="nav">
+      <div class="brand">
+        <div class="logo-container">
+          <i class="fas fa-robot logo-icon"></i>
+        </div>
+        <div>
+          <h1 id="title">Smart Campus Bot</h1>
+          <div style="font-size:12px; color:var(--muted)">Your AI Campus Assistant</div>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="ttsToggle" class="chip" aria-pressed="true" type="button">
+          <i class="fas fa-volume-up"></i>
+          <span>TTS: On</span>
+        </button>
+        <button id="bell" class="chip" title="Reminders" type="button">
+          <i class="fas fa-bell"></i>
+          <span>Reminders</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="chat">
+      <section style="display:flex; gap:16px; align-items:flex-start;">
+        <div style="flex:1;">
+          <ul id="messages" class="messages"></ul>
+        </div>
+        <aside style="width:220px;">
+          <div class="quick-tips">
+            <h4><i class="fas fa-lightbulb"></i> Quick Tips</h4>
+            <ul>
+              <li>Try: "What are the college timings?"</li>
+              <li>Try: "How to apply for admission?"</li>
+              <li>Use the mic <i class="fas fa-microphone"></i> to speak — bot will reply aloud.</li>
+            </ul>
+          </div>
+          <div style="height:12px"></div>
+          <div style="background:var(--gradient); background-size:400% 400%; animation:var(--gradient-animation); padding:16px; border-radius:12px; color:white; text-align:center; font-weight:700; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+            <i class="fas fa-brain"></i> Smart Campus Assistant
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="composer">
+      <button id="mic" class="icon">
+        <i class="fas fa-microphone"></i>
+      </button>
+      <input id="input" type="text" placeholder="Ask me anything..." autocomplete="off" />
+      <button id="send" class="send">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </footer>
+  </div>
+
+  <!-- Reminder modal -->
+  <div id="reminderModal" class="modal hidden">
+    <div class="modal-card">
+      <h3>Add Reminder</h3>
+      <label>Title <input id="remTitle" type="text" placeholder="Pay fees" /></label>
+      <label>When <input id="remWhen" type="datetime-local" /></label>
+      <div class="modal-actions">
+        <button id="saveRem" class="primary">Save</button>
+        <button id="closeRem">Close</button>
+      </div>
+      <div class="rem-list">
+        <h4><i class="fas fa-history"></i> All Reminders</h4>
+        <ul id="remList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <script src="/static/js/speech.js"></script>
+  <script src="/static/js/reminders.js"></script>
+  <script src="/static/js/chat.js"></script>
+</body>
+</html>

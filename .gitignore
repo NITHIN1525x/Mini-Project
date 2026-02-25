@@ -1,0 +1,5 @@
+venv/
+models/
+*.h5
+*.pb
+__pycache__/
