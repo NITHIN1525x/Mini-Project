@@ -23,7 +23,7 @@ DATA_PATH = ROOT / "data" / "intents.json"
 OUT_DIR = ROOT / "models"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-SBERT_MODEL_NAME = "all-MiniLM-L6-v2"   # 384-dim, fast & accurate for intent tasks
+SBERT_MODEL_NAME = "sentence-transformers/distiluse-base-multilingual-cased-v2"
 VAL_SIZE = 0.10
 TEST_SIZE = 0.10
 RANDOM_SEED = 42
@@ -276,6 +276,18 @@ def main():
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
     print(f"\nSaved model & artifacts to: {OUT_DIR.resolve()}")
+
+    # 10) Auto-generate Evaluation Dashboard
+    try:
+        from src.evaluate import ModelEvaluator
+        if len(y_test) > 0:
+            evaluator = ModelEvaluator(y_test, test_probs, classes)
+            evaluator.plot_confusion_matrix()
+            evaluator.plot_precision_recall()
+            evaluator.generate_report()
+            print("\n[5-STAR] Evaluation dashboard generated successfully.")
+    except Exception as e:
+        print(f"\n[WARNING] Evaluation viz failed: {e}")
 
 if __name__ == "__main__":
     main()

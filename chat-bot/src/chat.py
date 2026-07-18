@@ -3,7 +3,12 @@
 Flask web server for the chatbot interface (English-only).
 This simplified server removes translation logic and processes text as English.
 """
+import sys
 from pathlib import Path
+
+# Add src directory to system path for importing utils
+sys.path.append(str(Path(__file__).resolve().parent))
+
 from flask import Flask, request, jsonify, render_template
 from utils import IntentPredictor
 

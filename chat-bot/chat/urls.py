@@ -1,11 +1,21 @@
 # chat/urls.py
 from django.urls import path
-from .views import HealthView, PredictView, ChatView,ChatPageView
+from .views import (
+    ActiveLearningView,
+    ChatView,
+    FeedbackView,
+    HealthView,
+    MetricsView,
+    PredictView,
+)
 
 
 urlpatterns = [
-    path("", ChatPageView.as_view(), name="chat_page"), 
+    path("", HealthView.as_view(), name="health"), 
     path("health/", HealthView.as_view(), name="health"),
     path("predict/", PredictView.as_view(), name="predict"),
-    path("chat/", ChatView.as_view(), name="chat"),
+    path("chat/", ChatView.as_view(), name="chat-api"),
+    path("feedback/", FeedbackView.as_view(), name="feedback-api"),
+    path("metrics/", MetricsView.as_view(), name="metrics-api"),
+    path("active-learning/", ActiveLearningView.as_view(), name="active-learning-api"),
 ]

@@ -11,7 +11,18 @@
         "What's up?",
         "How are you?",
         "Hey chatbot",
-        "Yo"
+        "Yo",
+        "Hey",
+        "Hii",
+        "Helo",
+        "Good afternoon",
+        "Howdy",
+        "Greetings",
+        "Sup",
+        "Hello there",
+        "Hi there",
+        "Start",
+        "Help me"
       ],
       "responses": [
         "Hello! How can I assist you today?",
@@ -28,7 +39,12 @@
         "Talk to you soon",
         "I'm done",
         "Quit",
-        "Exit"
+        "Exit",
+        "Take care",
+        "See ya",
+        "Bye bye",
+        "Ciao",
+        "Catch you later"
       ],
       "responses": [
         "Goodbye! Have a great day ahead!",
@@ -44,11 +60,18 @@
         "That was helpful",
         "Appreciate it",
         "Thanks a lot",
-        "Thank you so much"
+        "Thank you so much",
+        "Thanks for the help",
+        "That helped",
+        "Great thanks",
+        "Much appreciated",
+        "Okk thanks",
+        "Ok thank you"
       ],
       "responses": [
         "You're welcome! Glad I could help.",
-        "Anytime! 😊"
+        "Anytime! \ud83d\ude0a",
+        "Happy to help! Let me know if you need anything else."
       ]
     },
     {
@@ -60,7 +83,15 @@
         "Opening hours of college",
         "Is college open on Saturday?",
         "Is college closed on weekends?",
-        "College working hours please"
+        "College working hours please",
+        "What time does college open?",
+        "What time does college end?",
+        "College hours",
+        "Timings of college",
+        "College schedule",
+        "When do classes start?",
+        "When does college begin?",
+        "What are college hours?"
       ],
       "responses": [
         "The college timings depend on the year you are studying in. Each year has a different schedule based on subjects and lab sessions. Generally, classes begin in the morning and end by afternoon, but specific timings are provided by your department at the start of every semester."
@@ -77,10 +108,12 @@
         "What are the timings for third year?",
         "When do third year classes start?",
         "What are the timings for final year?",
-        "Tell me the timings for fourth year"
+        "Tell me the timings for fourth year",
+        "Yearwise timings",
+        "Class timings all years"
       ],
       "responses": [
-        "The college timings are as follows:\n\n• *First Year:* 8:45 AM to 4:30 PM\n• *Second Year:* 8:30 AM to 4:30 PM\n• *Third Year:* 8:30 AM to 4:30 PM\n• *Fourth Year:* 8:30 AM to 4:30 PM\n\nPlease follow your department timetable for exact class and lab schedules."
+        "The college timings are as follows:\n\n\u2022 *First Year:* 8:45 AM to 4:30 PM\n\u2022 *Second Year:* 8:30 AM to 4:30 PM\n\u2022 *Third Year:* 8:30 AM to 4:30 PM\n\u2022 *Fourth Year:* 8:30 AM to 4:30 PM\n\nPlease follow your department timetable for exact class and lab schedules."
       ]
     },
     {
@@ -92,7 +125,12 @@
         "Schedule for exams",
         "When are the finals?",
         "When are internal exams?",
-        "Where can I find the exam schedule?"
+        "Where can I find the exam schedule?",
+        "Exam schedule",
+        "Upcoming exam dates",
+        "When are exams?",
+        "Exam timetable",
+        "VTU exam dates"
       ],
       "responses": [
         "For complete details on upcoming exams, holidays, and academic events, please check the College Academic Calendar using this link given below"
@@ -108,10 +146,21 @@
         "Where can I get the admission form?",
         "When do admissions start?",
         "Admission last date?",
-        "Documents required for admission?"
+        "Documents required for admission?",
+        "How to take admission?",
+        "Admission procedure",
+        "How to get admission?",
+        "Admission details",
+        "Admission to college",
+        "How to join the college?",
+        "Apply to college",
+        "Admission open?",
+        "CET admission",
+        "COMEDK admission process",
+        "Management quota admission"
       ],
       "responses": [
-        "Our college has three modes of admission: CET, COMEDK, and Management quota.\n\n*CET (Common Entrance Test):* Conducted by the Karnataka Examination Authority. If you’re familiar with CET, you know it involves ranking, option entry, and seat allotment through the KEA portal.\n\n*COMEDK:* Admission through COMEDK involves appearing for the COMEDK UGET exam, checking your rank, and participating in centralized counseling for seat selection.\n\n*Management Quota:* Students can directly apply under the management category by contacting the admission office for seat availability and fee details. For more details contact XXX"
+        "Our college has three modes of admission: CET, COMEDK, and Management quota.\n\n*CET (Common Entrance Test):* Conducted by the Karnataka Examination Authority. It involves ranking, option entry, and seat allotment through the KEA portal.\n\n*COMEDK:* Admission through COMEDK involves appearing for the COMEDK UGET exam, checking your rank, and participating in centralized counseling for seat selection.\n\n*Management Quota:* Students can directly apply under the management category by contacting the admission office for seat availability and fee details. For more details contact the admission office."
       ]
     },
     {
@@ -123,10 +172,21 @@
         "Tell me about the courses offered",
         "Do you have computer science?",
         "Is there an MBA program?",
-        "What undergraduate programs are offered?"
+        "What undergraduate programs are offered?",
+        "Branches in college",
+        "Which engineering branches?",
+        "Courses in Sahyadri",
+        "Departments in college",
+        "Available courses",
+        "What can I study here?",
+        "IS department",
+        "AI ML course",
+        "Mechanical engineering available?",
+        "ECE branch",
+        "Robotics course"
       ],
       "responses": [
-        "The college offers B.E/B.Tech programs in the following branches:\n\n• *Computer Science and Engineering\n• **Information Science and Engineering\n• **Artificial Intelligence and Machine Learning\n• **Robotics and Automation\n• **Mechanical Engineering\n• **Electronics and Communication Engineering\n• **Electrical and Electronics Engineering\n• **Artificial Intelligence and Data Science\n\nFor more details, please refer to the *‘Academics’ section on the official college website."
+        "The college offers B.E/B.Tech programs in the following branches:\n\n\u2022 Computer Science and Engineering (CSE)\n\u2022 Information Science and Engineering (ISE)\n\u2022 Artificial Intelligence and Machine Learning (AIML)\n\u2022 Robotics and Automation\n\u2022 Mechanical Engineering\n\u2022 Electronics and Communication Engineering (ECE)\n\u2022 Electrical and Electronics Engineering (EEE)\n\u2022 Artificial Intelligence and Data Science (AIDS)\n\nFor more details, please refer to the 'Academics' section on the official college website."
       ]
     },
     {
@@ -139,10 +199,22 @@
         "Payment process for fees",
         "What are the total fees per year?",
         "Is there an installment option?",
-        "Can I pay fees online?"
+        "Can I pay fees online?",
+        "COMEDK fees",
+        "What are COMEDK fees?",
+        "What is the fee structure for COMEDK?",
+        "Fee per year",
+        "Yearly fee",
+        "How much does it cost?",
+        "Tuition fees",
+        "Annual fees",
+        "Fee details",
+        "Fee amount",
+        "CET fee",
+        "How much to pay for college?"
       ],
       "responses": [
-        "CET fees generally range from ₹90,000 to ₹1,00,000 per year. For COMEDK, the fees are usually between ₹2,70,000 to ₹3,00,000 per year. Management quota fees can vary depending on the college and course."
+        "CET fees generally range from \u20b990,000 to \u20b91,00,000 per year. For COMEDK, the fees are usually between \u20b92,70,000 to \u20b93,00,000 per year. Management quota fees can vary depending on the college and course."
       ]
     },
     {
@@ -154,10 +226,22 @@
         "Can I get a single room?",
         "What are hostel facilities?",
         "Is WiFi available in hostel?",
-        "Where is the hostel office?"
+        "Where is the hostel office?",
+        "Hostel facility",
+        "Do you have hostel?",
+        "Hostel for girls",
+        "Hostel for boys",
+        "Boys hostel",
+        "Girls hostel",
+        "Hostel details",
+        "Hostel room",
+        "Is there hostel?",
+        "Hostel info",
+        "Hostel mess",
+        "Food in hostel"
       ],
       "responses": [
-        "Yes, hostel facilities are available for both boys and girls. Rooms are typically shared (2 or 3 students per room). WiFi, mess, and laundry services are provided. Applications can be submitted under the 'Accommodation' section of the student portal. For more details, please contact the hostel warden. warden's contact detail XXX"
+        "Yes, hostel facilities are available for both boys and girls. Rooms are typically shared (2 or 3 students per room). WiFi, mess, and laundry services are provided. Applications can be submitted under the 'Accommodation' section of the student portal. For more details, please contact the hostel warden."
       ]
     },
     {
@@ -169,10 +253,21 @@
         "How to get a library card?",
         "Library rules please",
         "Is digital library available?",
-        "Who is the librarian?"
+        "Who is the librarian?",
+        "Library hours",
+        "Library open time",
+        "Library close time",
+        "Library timings",
+        "How many books can I borrow?",
+        "Library access",
+        "Book borrowing",
+        "Digital library",
+        "Library card",
+        "Issue books",
+        "Return books"
       ],
       "responses": [
-        "The library is open from 8.30 AM to 5.00 PM. It remains closed on Sundays and public holidays. You can borrow books using your student ID."
+        "The library is open from 8.30 AM to 5.00 PM. It remains closed on Sundays and public holidays. You can borrow books using your student ID. The college also has a digital library with access to e-resources."
       ]
     },
     {
@@ -184,24 +279,79 @@
         "Average package?",
         "Career services available?",
         "Is there internship assistance?",
-        "Which company offers the highest package?"
+        "Which company offers the highest package?",
+        "Campus placements",
+        "Placement cell",
+        "Placement opportunities",
+        "Companies for recruitment",
+        "Which companies hire?",
+        "Placement process",
+        "Job placement",
+        "Campus recruitment",
+        "Hiring companies",
+        "Off campus placement"
       ],
       "responses": [
-        "The placement cell coordinates campus recruitment for companies like Infosys, TCS, Wipro, Accenture and many more companies. The average package is around ₹5 LPA. Internship and career guidance are provided by the placement office. For mor details contact placement department - contact: XXX."
+        "The placement cell coordinates campus recruitment with companies like Infosys, TCS, Wipro, Accenture, and many more. The average package is around \u20b95 LPA. Internship and career guidance are provided by the placement office. For more details, contact the placement department."
       ]
     },
     {
-      "tag": "faculty",
+      "tag": "hod_cs",
       "patterns": [
         "Who is the HOD of computer science?",
+        "Who is HOD of computer science?",
+        "Who is the HOD of CSE?",
+        "Who is the head of computer science department?",
+        "Who is head of CSE department?",
+        "Computer science HOD",
+        "HOD of computer science",
+        "CSE HOD",
+        "Who leads the computer science department?",
+        "Name of HOD computer science",
+        "Who is the HOD of CS department?",
+        "Tell me the HOD of computer science",
+        "head of department computer science",
+        "hod cse",
+        "who is the department head of cs",
+        "HOD name of CSE",
+        "CS department HOD name",
+        "who is hod of cs",
+        "who is hod of cse",
+        "name of cs hod",
+        "head of cse",
+        "cs hod name",
+        "hod of cs",
+        "hod computer science",
+        "mustafa basthikodi",
+        "who is mustafa basthikodi",
+        "hod details computer science"
+      ],
+      "responses": [
+        "The HOD of the Computer Science and Engineering (CSE) department is Dr. Mustafa Basthikodi."
+      ]
+    },
+    {
+      "tag": "faculty_info",
+      "patterns": [
         "List of faculty members",
         "Contact my professor",
         "Teacher email IDs",
         "Faculty directory",
-        "Who teaches data structures?"
+        "Who teaches data structures?",
+        "How can I contact a faculty member?",
+        "Professor contact details",
+        "Faculty list please",
+        "Staff list",
+        "Professors in college",
+        "Faculty contact",
+        "Teacher list",
+        "Staff details",
+        "How to contact teacher?",
+        "Department faculty",
+        "Teaching staff"
       ],
       "responses": [
-        "HOD - Dr. Mustafa Basthikodi."
+        "For the complete faculty directory including contact details and email IDs, please visit the official college website under the 'Academics' or 'Faculty' section."
       ]
     },
     {
@@ -213,10 +363,22 @@
         "Is the food hygienic?",
         "Where is the canteen located?",
         "Do they serve breakfast?",
-        "Is non-veg food available?"
+        "Is non-veg food available?",
+        "Canteen menu",
+        "Food in campus",
+        "Campus food",
+        "Mess timings",
+        "Canteen food",
+        "Where to eat in college?",
+        "Cafeteria",
+        "Food available?",
+        "Snacks available?",
+        "Veg food",
+        "Canteen open time",
+        "Canteen price"
       ],
       "responses": [
-        "Yes, the college has a single-floored canteen that is spacious and well-maintained. It serves both vegetarian and non-vegetarian food options, with meals prepared under hygienic conditions to ensure quality and freshness.\n\nThe canteen timings are from *8:00 AM to 8.30 PM*, offering breakfast, lunch, snacks, and beverages throughout the day. It is located within the campus and easily accessible to students and staff."
+        "Yes, the college has a spacious and well-maintained canteen. It serves both vegetarian and non-vegetarian food options, with meals prepared under hygienic conditions.\n\nThe canteen timings are from *8:00 AM to 8:30 PM*, offering breakfast, lunch, snacks, and beverages throughout the day. It is located within the campus and easily accessible to students and staff."
       ]
     },
     {
@@ -227,10 +389,21 @@
         "Bus routes?",
         "How to apply for bus pass?",
         "What is the transport fee?",
-        "Are buses available on Saturday?"
+        "Are buses available on Saturday?",
+        "College bus",
+        "Bus service",
+        "Bus routes list",
+        "Bus pass",
+        "Transport facility",
+        "Shuttle bus",
+        "Bus from Mangalore",
+        "College bus from NITK",
+        "How to travel to college?",
+        "Bus stop near college",
+        "Transport details"
       ],
       "responses": [
-        "Yes, college buses cover major city routes. Transport fees vary between ₹12,000–₹18,000 per year depending on distance. The routes- Carstreet, Urva, Ladyhill, NITK and many more places"
+        "Yes, college buses cover major city routes. Transport fees vary between \u20b912,000\u2013\u20b918,000 per year depending on distance. Routes include: Carstreet, Urva, Ladyhill, NITK, and many more places."
       ]
     },
     {
@@ -242,7 +415,16 @@
         "Is there any cultural program?",
         "Upcoming events please",
         "When is the tech fest?",
-        "When is the cultural fest?"
+        "When is the cultural fest?",
+        "College fest",
+        "Tech event",
+        "Sports events",
+        "Annual day",
+        "Cultural fest",
+        "Technical fest",
+        "Events calendar",
+        "College events list",
+        "Upcoming fest"
       ],
       "responses": [
         "The college conducts several events including technical fests, cultural programs, and sports meets. Upcoming events are announced in the 'Campus Life' section of the official website. Stay tuned for updates from the student council."
@@ -256,7 +438,16 @@
         "Where are exam results?",
         "Result announcement date?",
         "Check grades online",
-        "When are the results declared?"
+        "When are the results declared?",
+        "My results",
+        "Check result",
+        "Exam results",
+        "VTU results",
+        "Marks card",
+        "Where to see results?",
+        "Result portal",
+        "How to check semester result?",
+        "Grade card"
       ],
       "responses": [
         "Results are published in the 'Examinations' section of the student portal. Log in using your student ID and password. For revaluation or doubts, contact the exam cell."
@@ -270,10 +461,19 @@
         "College phone number?",
         "Where is the college located?",
         "How to reach the campus?",
-        "Who to contact for general inquiries?"
+        "Who to contact for general inquiries?",
+        "College address",
+        "College contact",
+        "Sahyadri college contact",
+        "Phone number of college",
+        "Email of college",
+        "College location",
+        "College phone",
+        "How to contact administration?",
+        "Admin office contact"
       ],
       "responses": [
-        "You can contact the college using the following details:\n\n📧 *Email:* contact@sahyadri.edu.in\n📞 *Phone:* +91 824 2277333\n\nFor specific queries, you may also visit the official college website’s Contact Us section."
+        "You can contact the college using the following details:\n\n\ud83d\udce7 *Email:* contact@sahyadri.edu.in\n\ud83d\udcde *Phone:* +91 824 2277333\n\nFor specific queries, you may also visit the official college website\u2019s Contact Us section."
       ]
     },
     {
@@ -282,10 +482,16 @@
         "When is document verification done?",
         "Where should I submit my original documents?",
         "Do I need to bring TC and marks card?",
-        "What documents are required during admission?"
+        "What documents are required during admission?",
+        "Documents for admission",
+        "Which documents to bring?",
+        "Original documents required",
+        "TC for admission",
+        "Marks card submission",
+        "Document checklist for admission"
       ],
       "responses": [
-        "Document verification happens during admission at the college office. You’ll need your 10th and 12th marks cards, TC, entrance exam scorecard, photos, and ID proof. Originals are required for verification."
+        "Document verification happens during admission at the college office. You\u2019ll need your 10th and 12th marks cards, TC, entrance exam scorecard, photos, and ID proof. Originals are required for verification."
       ]
     },
     {
@@ -294,7 +500,12 @@
         "How can I check my admission status?",
         "Did I get admission?",
         "Is my seat confirmed?",
-        "When will admission confirmation be sent?"
+        "When will admission confirmation be sent?",
+        "Check admission status",
+        "My admission status",
+        "Is admission confirmed?",
+        "Seat allotment status",
+        "How to know if admitted?"
       ],
       "responses": [
         "You can check your admission status by logging into the college admission portal or contacting the admission office. Confirmation messages are usually sent to your registered email and phone number."
@@ -306,10 +517,19 @@
         "What is the minimum attendance required?",
         "Can I attend exams with low attendance?",
         "Attendance rules please",
-        "How is attendance calculated?"
+        "How is attendance calculated?",
+        "Minimum attendance",
+        "Attendance percentage",
+        "Attendance requirement",
+        "75 or 85 percent attendance?",
+        "What happens if attendance is low?",
+        "Attendance shortage",
+        "How much attendance is needed?",
+        "Fine for low attendance",
+        "Attendance shortage exemption"
       ],
       "responses": [
-        "Students must maintain at least *85% attendance* in each subject to be eligible for semester exams. Attendance is tracked daily, and shortfall may result in being barred from exams."
+        "Students must maintain at least *85% attendance* in each subject to be eligible for semester exams. Attendance is tracked daily, and shortfall may result in being barred from exams. For medical leave, submit the medical certificate to your class teacher promptly."
       ]
     },
     {
@@ -318,10 +538,18 @@
         "Where can I find the academic calendar?",
         "When does the semester start?",
         "Semester schedule please",
-        "What is the duration of each semester?"
+        "What is the duration of each semester?",
+        "Academic calendar",
+        "Semester dates",
+        "Academic year schedule",
+        "College calendar",
+        "When does new semester start?",
+        "Semester start date",
+        "Odd semester dates",
+        "Even semester dates"
       ],
       "responses": [
-        "The academic calendar, including semester start and end dates, exam periods, and holidays, is available on the official college website under the Academics → Calendar section."
+        "The academic calendar, including semester start and end dates, exam periods, and holidays, is available on the official college website under the Academics \u2192 Calendar section."
       ]
     },
     {
@@ -329,23 +557,17 @@
       "patterns": [
         "When is the last date to pay fees?",
         "Fee payment deadline?",
-        "What happens if I don’t pay fees on time?",
-        "Can I pay fees after the deadline?"
+        "What happens if I don\u2019t pay fees on time?",
+        "Can I pay fees after the deadline?",
+        "Fee due date",
+        "Last date to pay fees",
+        "Fee deadline",
+        "Penalty for late fee payment",
+        "Fine for late fees",
+        "Can I pay fees late?"
       ],
       "responses": [
-        "The last date for fee payment is usually announced by the accounts department before each semester. Late payments may incur fines. It’s best to pay before the due date to avoid penalties."
-      ]
-    },
-    {
-      "tag": "academic_calendar_link",
-      "patterns": [
-        "Where can I find the academic calendar?",
-        "When does the semester start?",
-        "Semester schedule please",
-        "What is the duration of each semester?"
-      ],
-      "responses": [
-        "The academic calendar, including semester start and end dates, exam periods, and holidays, is available in the link below:\n👉 [Click here to view the Academic Calendar](<your_academic_calendar_link_here>)"
+        "The last date for fee payment is usually announced by the accounts department before each semester. Late payments may incur fines. It\u2019s best to pay before the due date to avoid penalties."
       ]
     },
     {
@@ -354,19 +576,39 @@
         "Are there any fee concessions?",
         "Does the college provide fee waiver?",
         "Scholarships for low-income students?",
-        "Can I get financial aid?"
+        "Can I get financial aid?",
+        "Does the college provide a fee waiver?",
+        "Are scholarships available for students?",
+        "Can I apply for financial aid?",
+        "Is there any support for economically weaker students?",
+        "Scholarship details",
+        "Scholarship in college",
+        "Merit scholarship",
+        "SC ST scholarship",
+        "Government scholarship",
+        "Fee concession",
+        "How to get scholarship?",
+        "Financial assistance"
       ],
       "responses": [
-        "Yes, the college provides scholarships and partial fee waivers for meritorious and economically weaker students. Applications can be made through the scholarship section on the portal or the admin office."
+        "Yes, the college offers various scholarships and fee concessions based on academic performance, government schemes, and financial need. Eligible students can apply through the official scholarship portal or contact the Accounts/Scholarship section in the admin office for guidance."
       ]
     },
     {
       "tag": "online_payment_support",
       "patterns": [
-        "I’m facing an issue with online payment",
+        "I\u2019m facing an issue with online payment",
         "My transaction failed",
         "How to pay fees online?",
-        "Which payment methods are accepted?"
+        "Which payment methods are accepted?",
+        "Online fee payment",
+        "Pay fees online",
+        "UPI payment for fees",
+        "Payment failed",
+        "Transaction failed fees",
+        "Net banking fees",
+        "Credit card fee payment",
+        "Payment issue"
       ],
       "responses": [
         "You can pay fees online via the student portal using debit/credit cards, UPI, or net banking. In case of failed transactions, contact the accounts office with your payment reference number."
@@ -378,23 +620,16 @@
         "How do I register for hostel?",
         "When does hostel registration open?",
         "Can I apply for hostel online?",
-        "Is hostel admission separate from college admission?"
+        "Is hostel admission separate from college admission?",
+        "Hostel registration process",
+        "How to book hostel room?",
+        "Hostel allotment",
+        "Hostel apply",
+        "When to apply for hostel?",
+        "Hostel seat booking"
       ],
       "responses": [
         "Hostel registration is done after confirming your college admission. You can apply through the Accommodation section on the student portal or directly contact the hostel office."
-      ]
-    },
-    {
-      "tag": "scholarship_fee_waiver_updated",
-      "patterns": [
-        "Are there any fee concessions?",
-        "Does the college provide a fee waiver?",
-        "Are scholarships available for students?",
-        "Can I apply for financial aid?",
-        "Is there any support for economically weaker students?"
-      ],
-      "responses": [
-        "Yes, the college offers various scholarships and fee concessions based on academic performance, government schemes, and financial need. Eligible students can apply through the official scholarship portal or contact the Accounts/Scholarship section in the admin office for guidance."
       ]
     },
     {
@@ -403,7 +638,14 @@
         "What are the hostel rules?",
         "Are visitors allowed in hostel?",
         "Is there a curfew time?",
-        "Can we stay out late at night?"
+        "Can we stay out late at night?",
+        "Hostel regulations",
+        "Hostel timings",
+        "Hostel curfew",
+        "Hostel discipline",
+        "Can guests stay in hostel?",
+        "Night out from hostel",
+        "Late night hostel"
       ],
       "responses": [
         "The hostel maintains strict discipline. Visitors are allowed only during specific hours, and students must return before the *7:00 PM* curfew. Loud music and unauthorized outings are prohibited."
@@ -415,10 +657,16 @@
         "How can I report a problem in hostel?",
         "My room fan is not working",
         "Hostel maintenance issue",
-        "Who should I contact for repairs?"
+        "Who should I contact for repairs?",
+        "Hostel complaint",
+        "Hostel problem",
+        "Room issue in hostel",
+        "Electricity problem hostel",
+        "Water issue hostel",
+        "Hostel repair"
       ],
       "responses": [
-        "For any hostel maintenance issues, report to the hostel warden or submit a complaint form at the hostel office. Issues like electricity or plumbing are resolved within 24–48 hours."
+        "For any hostel maintenance issues, report to the hostel warden or submit a complaint form at the hostel office. Issues like electricity or plumbing are resolved within 24\u201348 hours."
       ]
     },
     {
@@ -427,7 +675,14 @@
         "Is WiFi available in campus?",
         "How to access college WiFi?",
         "WiFi password please",
-        "WiFi not working"
+        "WiFi not working",
+        "Internet in campus",
+        "College WiFi",
+        "WiFi access",
+        "WiFi login",
+        "Internet connectivity",
+        "WiFi speed",
+        "How to connect WiFi?"
       ],
       "responses": [
         "WiFi is available across the campus. Use your student ID to log in. For any connectivity issues, contact the IT Support Desk located in the admin block."
@@ -439,7 +694,14 @@
         "Is there a medical room in college?",
         "What if I feel sick in campus?",
         "Do you have first aid?",
-        "Is there a doctor available?"
+        "Is there a doctor available?",
+        "Medical room",
+        "Nurse in college",
+        "College doctor",
+        "Health center",
+        "First aid in campus",
+        "Sick in college",
+        "Health facility"
       ],
       "responses": [
         "Yes, the college has a medical room equipped with basic first aid and a visiting doctor. In case of emergencies, immediate assistance is provided by the campus nurse."
@@ -451,7 +713,12 @@
         "Do you provide career counselling for admissions?",
         "Can I talk to someone before choosing a branch?",
         "Is there counselling for selecting courses?",
-        "Who can guide me during admission?"
+        "Who can guide me during admission?",
+        "Admission counselling",
+        "Career guidance for admission",
+        "Branch selection help",
+        "Which branch should I choose?",
+        "Counselling before admission"
       ],
       "responses": [
         "Yes, the college offers admission and career counselling to help students choose the right branch based on their interests and scores. You can meet the counsellor at the Admission Help Desk during office hours."
@@ -463,10 +730,15 @@
         "Can diploma students join directly in second year?",
         "Is there a lateral entry program?",
         "How can I apply for lateral entry?",
-        "Do you accept diploma holders?"
+        "Do you accept diploma holders?",
+        "Lateral entry",
+        "Diploma to BE",
+        "Diploma lateral entry",
+        "Direct second year admission",
+        "Lateral entry application"
       ],
       "responses": [
-        "Yes, diploma students can apply for lateral entry to the second year of B.E."
+        "Yes, diploma students can apply for lateral entry to the second year of B.E. through the lateral entry counselling process conducted by KEA."
       ]
     },
     {
@@ -475,7 +747,14 @@
         "What happens if I fail a subject?",
         "Can I clear backlogs later?",
         "How many backlogs are allowed?",
-        "Is there a supplementary exam?"
+        "Is there a supplementary exam?",
+        "Backlog rules",
+        "Failed in exam",
+        "ATKT rules",
+        "Supplementary exam details",
+        "How to clear backlog?",
+        "Failed a subject",
+        "Arrear exam"
       ],
       "responses": [
         "If you fail in a subject, you can appear for supplementary exams conducted by the university. The number of allowed backlogs varies, but clearing them before the final semester is mandatory for graduation."
@@ -485,12 +764,19 @@
       "tag": "revaluation_process",
       "patterns": [
         "How can I apply for revaluation?",
-        "I’m not satisfied with my marks",
+        "I\u2019m not satisfied with my marks",
         "Revaluation rules please",
-        "Where to submit revaluation form?"
+        "Where to submit revaluation form?",
+        "Revaluation",
+        "Apply for revaluation",
+        "Challenge valuation",
+        "Photocopy of answer script",
+        "Recheck my marks",
+        "Not happy with result",
+        "Marks correction"
       ],
       "responses": [
-        "You can apply for revaluation or photocopy of your answer script through the Examination Cell within 7–10 days of result publication. Additional fees apply per subject."
+        "You can apply for revaluation or photocopy of your answer script through the Examination Cell within 7\u201310 days of result publication. Additional fees apply per subject."
       ]
     },
     {
@@ -499,10 +785,15 @@
         "When is the semester break?",
         "How long are holidays after exams?",
         "When does the next semester start?",
-        "Do we get a vacation between semesters?"
+        "Do we get a vacation between semesters?",
+        "Semester holidays",
+        "Break between semesters",
+        "Vacation after exams",
+        "How many days holiday after sem exam?",
+        "Semester gap"
       ],
       "responses": [
-        "Semester breaks usually last 2–3 weeks after end-semester exams. The new semester schedule is updated in the academic calendar and shared via circulars."
+        "Semester breaks usually last 2\u20133 weeks after end-semester exams. The new semester schedule is updated in the academic calendar and shared via circulars."
       ]
     },
     {
@@ -511,7 +802,12 @@
         "Can parents stay in hostel?",
         "Are guests allowed in hostel rooms?",
         "Is there a guest room available?",
-        "Where can my relatives stay during visits?"
+        "Where can my relatives stay during visits?",
+        "Parent visit hostel",
+        "Guest in hostel",
+        "Guest room hostel",
+        "Family visit hostel",
+        "Can relatives stay in hostel?"
       ],
       "responses": [
         "Parents and guardians are not allowed to stay in hostel rooms. However, guest rooms are available on prior request through the hostel office for short stays during admissions or events."
@@ -523,10 +819,16 @@
         "Can you show me the campus map?",
         "Where is the admin block?",
         "How to find my department building?",
-        "Where is the library located?"
+        "Where is the library located?",
+        "Campus layout",
+        "Where is the lab?",
+        "College map",
+        "Admin block location",
+        "Department building",
+        "Campus directions"
       ],
       "responses": [
-        "You can view the interactive Campus Map on the college website under the ‘About Us → Campus Layout’ section. It shows buildings, labs, parking, and other key locations."
+        "You can view the interactive Campus Map on the college website under the \u2018About Us \u2192 Campus Layout\u2019 section. It shows buildings, labs, parking, and other key locations."
       ]
     },
     {
@@ -535,10 +837,15 @@
         "I lost my phone in campus",
         "Where do I report lost items?",
         "Lost something in class",
-        "Who handles lost and found?"
+        "Who handles lost and found?",
+        "Lost and found",
+        "Lost my bag in college",
+        "Found something in campus",
+        "Lost item report",
+        "Lost property"
       ],
       "responses": [
-        "Lost items can be reported at the Security Office near the main gate. If found, they’re stored for a limited period. Always report valuable losses immediately."
+        "Lost items can be reported at the Security Office near the main gate. If found, they\u2019re stored for a limited period. Always report valuable losses immediately."
       ]
     },
     {
@@ -547,7 +854,12 @@
         "Can alumni help current students?",
         "How can I contact alumni?",
         "Is there mentorship from alumni?",
-        "Does college have alumni network?"
+        "Does college have alumni network?",
+        "Alumni association",
+        "Connect with alumni",
+        "Alumni mentorship",
+        "Ex students network",
+        "Alumni events"
       ],
       "responses": [
         "Yes, the college has an Alumni Mentorship Program where senior graduates guide students on careers, placements, and higher studies. Join the alumni network via the official website."
@@ -559,7 +871,14 @@
         "Is there counseling for students?",
         "What if I feel stressed?",
         "Do you provide mental health support?",
-        "Whom to talk to about personal issues?"
+        "Whom to talk to about personal issues?",
+        "Student counseling",
+        "Mental health in college",
+        "Psychological support",
+        "Counselor in college",
+        "Emotional support",
+        "Stressed in college",
+        "Help for mental health"
       ],
       "responses": [
         "Yes, the college provides free student counseling and emotional wellness support. You can confidentially meet the counselor by booking an appointment through the student helpdesk."
@@ -571,7 +890,15 @@
         "Is there placement training?",
         "Do we get soft skills training?",
         "How to prepare for campus interviews?",
-        "Does college provide aptitude sessions?"
+        "Does college provide aptitude sessions?",
+        "Pre-placement training",
+        "Interview preparation",
+        "Aptitude test preparation",
+        "Soft skills class",
+        "Communication training",
+        "Resume writing help",
+        "Mock interview",
+        "Training for placements"
       ],
       "responses": [
         "Yes, pre-placement training is provided including aptitude, communication, resume building, and interview preparation sessions organized by the Training and Placement Cell."
@@ -583,7 +910,15 @@
         "Does the college help with GRE or GATE preparation?",
         "Is there guidance for higher studies?",
         "Can I get help applying abroad?",
-        "Does college support research programs?"
+        "Does college support research programs?",
+        "GATE coaching",
+        "GRE preparation",
+        "Higher studies after BE",
+        "MS abroad guidance",
+        "MTech after BE",
+        "PhD after engineering",
+        "Study abroad support",
+        "GATE exam support"
       ],
       "responses": [
         "Yes, the college offers seminars and mentoring for students aspiring for GATE, GRE, CAT, and higher studies abroad. Faculty members guide you in selecting universities and preparing applications."
@@ -595,7 +930,15 @@
         "How can I join a student club?",
         "Are new members allowed in clubs?",
         "Is there a robotics club?",
-        "When is club recruitment?"
+        "When is club recruitment?",
+        "Student clubs",
+        "Club registration",
+        "Join coding club",
+        "Cultural club",
+        "Technical club",
+        "Club activities",
+        "Extracurricular clubs",
+        "How to join club?"
       ],
       "responses": [
         "Yes, students can join any club by signing up during club registration week or via the online student portal. Clubs like Robotics, Coding, Arts, and Cultural welcome new members every semester."
@@ -607,7 +950,13 @@
         "Emergency number in campus?",
         "Whom to call in case of accident?",
         "Is there security contact?",
-        "Campus emergency helpline?"
+        "Campus emergency helpline?",
+        "Emergency contact",
+        "College emergency",
+        "Security contact number",
+        "Emergency in campus",
+        "Accident in campus",
+        "Safety helpline"
       ],
       "responses": [
         "In case of emergency, contact the Security Office at extension *222* or the Medical Room at *+91 824 2277333 (Ext. 105)*. Security staff are available 24/7 inside the campus."
@@ -619,22 +968,159 @@
         "What are the exam rules?",
         "What items are not allowed in exams?",
         "Can I carry a calculator?",
-        "When should I reach the exam hall?"
+        "When should I reach the exam hall?",
+        "Exam hall rules",
+        "Mobile in exam hall",
+        "Calculator in exam",
+        "Exam guidelines",
+        "What to bring to exam?",
+        "Exam regulations",
+        "Hall ticket needed?"
       ],
       "responses": [
-        "Students must report 15 minutes before the exam. Mobile phones and smart devices are not allowed. Only non-programmable calculators are permitted for technical subjects."
+        "Students must report 15 minutes before the exam. Mobile phones and smart devices are not allowed. Only non-programmable calculators are permitted for technical subjects. Carry your hall ticket and college ID."
       ]
     },
     {
-      "tag": "exam_instructions",
+      "tag": "first_year_timings",
       "patterns": [
-        "What are the exam rules?",
-        "What items are not allowed in exams?",
-        "Can I carry a calculator?",
-        "When should I reach the exam hall?"
+        "What are the first year timings?",
+        "timings for 1st year engineering",
+        "when do first year classes start?",
+        "1st year college timings",
+        "First year schedule",
+        "First year class time",
+        "1st year timings",
+        "BE first year timings",
+        "Fresher timings"
       ],
       "responses": [
-        "Students must report 15 minutes before the exam. Mobile phones and smart devices are not allowed. Only non-programmable calculators are permitted for technical subjects."
+        "First Year engineering classes start at *8:45 AM* and end at *4:30 PM*. Please follow your department section timetable for specific lab batches."
+      ]
+    },
+    {
+      "tag": "second_year_timings",
+      "patterns": [
+        "What are the second year timings?",
+        "timings for 2nd year engineering",
+        "when do second year classes start?",
+        "2nd year class schedule",
+        "Second year timing",
+        "2nd year timings",
+        "BE second year timings"
+      ],
+      "responses": [
+        "Second Year classes start at *8:30 AM* and end at *4:30 PM*. Refer to your branch timetable for specific lecture hours."
+      ]
+    },
+    {
+      "tag": "third_year_timings",
+      "patterns": [
+        "What are the third year timings?",
+        "timings for 3rd year engineering",
+        "when do third year classes start?",
+        "3rd year class timings",
+        "Third year timing",
+        "3rd year timings",
+        "BE third year timings"
+      ],
+      "responses": [
+        "Third Year engineering classes start at *8:30 AM* and end at *4:30 PM*."
+      ]
+    },
+    {
+      "tag": "fourth_year_timings",
+      "patterns": [
+        "What are the final year timings?",
+        "timings for 4th year engineering",
+        "when do final year classes start?",
+        "4th year class timings",
+        "Fourth year timing",
+        "Final year timings",
+        "BE final year timings",
+        "8th semester timings"
+      ],
+      "responses": [
+        "Fourth Year (Final Year) classes start at *8:30 AM* and end at *4:30 PM*."
+      ]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "How can I get an internship?",
+        "Are internships mandatory?",
+        "Does the college provide internship opportunities?",
+        "Who is in charge of internships?",
+        "Internship assistance",
+        "Internship in college",
+        "Summer internship",
+        "Winter internship",
+        "Internship for 3rd year",
+        "How to find internship?",
+        "Corporate internship",
+        "Paid internship"
+      ],
+      "responses": [
+        "Yes, internships are mandatory as per university guidelines. The Training & Placement Cell provides internship assistance and connects students with corporate partners. You can contact the placement department for the latest company listings."
+      ]
+    },
+    {
+      "tag": "placement_stats",
+      "patterns": [
+        "What are the placement statistics?",
+        "What is the highest package offered?",
+        "What is the average salary package?",
+        "Placement records",
+        "How many companies visited for recruitment?",
+        "Highest package in college",
+        "Average salary placement",
+        "Best placement record",
+        "Top recruiter",
+        "Placement percentage",
+        "How many students placed?",
+        "Salary offered in placements",
+        "LPA offered"
+      ],
+      "responses": [
+        "Our placement records are excellent! The highest package offered in the recent drive was *Rs. 43 LPA*, with an average package of *Rs. 5.5 LPA*. Over 250+ recruiters visit our campus annually."
+      ]
+    },
+    {
+      "tag": "internal_exams",
+      "patterns": [
+        "When are the internal assessment exams?",
+        "Internal exams schedule",
+        "How many internals do we have?",
+        "IA exams details",
+        "IA exam",
+        "Internal assessment",
+        "CIE exam",
+        "Continuous internal evaluation",
+        "How many IA exams per semester?",
+        "Internal test schedule"
+      ],
+      "responses": [
+        "The college conducts three Internal Assessments (IA) per semester. The schedule is announced by the department exam coordinator and typically takes place at the end of the 6th, 12th, and 16th weeks of the semester."
+      ]
+    },
+    {
+      "tag": "semester_exams",
+      "patterns": [
+        "When are the semester exams?",
+        "VTU semester exam details",
+        "When do final external exams start?",
+        "Semester exam timetable",
+        "SEE exam",
+        "Semester end exam",
+        "Theory exam",
+        "University exam",
+        "VTU exam",
+        "External exam schedule",
+        "When is VTU exam?",
+        "End semester examination"
+      ],
+      "responses": [
+        "Semester-end theory and practical exams are conducted by the University (VTU). Timetables and hall ticket download links are published on the VTU official portal and circulars are updated on the college notice boards."
       ]
     }
   ]

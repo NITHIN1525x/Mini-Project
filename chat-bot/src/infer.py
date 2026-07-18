@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+
+# Add src directory to system path for importing utils
+sys.path.append(str(Path(__file__).resolve().parent))
+
 from utils import IntentPredictor
 
 if __name__ == "__main__":
